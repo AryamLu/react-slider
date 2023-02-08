@@ -15,8 +15,9 @@ code {
 .slider1{
   -webkit-appearance: none;
   height: 2px;
-  width: 530px;
-  background: rgb(232, 232, 232);
+  width: 600px;
+  background: black;
+  transform: translateY(-50%);
 
 }
 
@@ -29,15 +30,24 @@ code {
   background-color: white;
   overflow: visible;
   cursor: pointer;
+  border: 1px solid #000000;
 }
 
-.slider-numbers{
+datalist {
   width: 600px;
-  display: flex;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	height: auto;
+  margin-top: 20px;
 }
 
-.slider-numbers div{
-  flex: 1;
+datalist option {
+	width: 15px;
+	min-height: 10px;
+	border-radius: 100px;
+  padding:0;
+  text-align: center;
 }
 
 
