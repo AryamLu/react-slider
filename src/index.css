@@ -21,6 +21,17 @@
   
 }
 
+/*
+.slider1::-webkit-slider-track{
+  -webkit-appearance: none;
+  width: 300px;
+  height: 3px;
+  background: transparent;
+  border-color: transparent;
+  border-width: 6px 0;
+  color: transparent;
+}*/
+
 .slider1::-webkit-slider-thumb {
   -webkit-appearance: none;
   width: 20px;
@@ -35,6 +46,19 @@
   position: relative;
 
 }
+
+/*.slider1:focus::-webkit-slider-fill-lower {
+  -webkit-appearance: none;
+  background: red;
+  border-radius: 10px;
+}
+
+.slider1:focus::-webkit-slider-fill-upper {
+  -webkit-appearance: none;
+  background: blue;
+  border-radius: 10px;
+}
+*/
 
 datalist {  
   width: 300px;

@@ -4,7 +4,7 @@ export  function Reactslider() {
   return (
     <div class="slidecontainer">
         <p>b. ¿Por cuántos años?</p>
-        <input className='slider1' type="range" min="1" max="7" list='ticks1'/>
+        <input className='slider1' type="range" min="1" max="7" list='ticks1' defaultValue={1}/>
         <datalist id="ticks1">
           <option value="1" class="op1"></option>
           <option value="2" class="op2">5</option>
