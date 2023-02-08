@@ -1,24 +1,24 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.slidecontainer{
+  font-family: "Foco","Arial",sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  position: relative;
 }
 
 .slider1{
   -webkit-appearance: none;
   height: 2px;
-  width: 600px;
-  background: black;
-  transform: translateY(-50%);
+  width: 300px;
+}
 
+.slider1::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  width: 300px;
+  height: 3px;
+  background: #ddd;
+  border: none;
+  border-radius: 3px;
+  
 }
 
 .slider1::-webkit-slider-thumb {
@@ -26,20 +26,23 @@ code {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  border: 1px solid #0075b0;  ;
   background-color: white;
   overflow: visible;
   cursor: pointer;
-  border: 1px solid #000000;
+  border: 1px solid #0075b0;
+  position: absolute;
+  bottom: 8px;
+  position: relative;
+
 }
 
-datalist {
-  width: 600px;
+datalist {  
+  width: 300px;
 	position: relative;
 	display: flex;
 	justify-content: space-between;
 	height: auto;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 datalist option {
@@ -48,6 +51,14 @@ datalist option {
 	border-radius: 100px;
   padding:0;
   text-align: center;
+  font-weight: bold;
+}
+
+.op4,
+.op5,
+.op6,
+.op7{
+  color: rgb(19, 138, 62);
 }
 
 
