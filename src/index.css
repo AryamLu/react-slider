@@ -72,7 +72,7 @@ datalist {
 datalist option {
 	width: 15px;
 	min-height: 10px;
-	border-radius: 100px;
+	border-radius:5px;
   padding:0;
   text-align: center;
   font-weight: bold;
@@ -83,6 +83,25 @@ datalist option {
 .op6,
 .op7{
   color: rgb(19, 138, 62);
+}
+
+.limite{
+  background-color: rgb(19, 138, 62);
+  border-radius: 5px;
+}
+
+.op4{
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border: 2px solid rgb(19, 138, 62);
+  border-radius: 5px;
+}
+
+.icon-star{
+  color: white;
+  text-align: center;
 }
 
 
