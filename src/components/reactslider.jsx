@@ -13,7 +13,7 @@ export  function Reactslider() {
           <option value="3" className="op3">7</option>
           <div className="limite">
               <div className="op4">10</div>
-              <div className="icon-star"><FaStar color='white' size={10}/></div>
+              <div className="icon-star"><FaStar color='white' size={15}/><span className='message-lim'>¡Desde aquí retira sin penalidad!</span></div>
           </div>
           <option value="5" className="op5">12</option>
           <option value="6" className="op6">15</option>
