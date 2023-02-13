@@ -2,3 +2,11 @@
 .curly-braces{
   display: inline-block;
 }
+
+.curly-braces-text{
+  padding: 5px;
+}
+
+svg{
+  transform: translateY(-5px)
+}
