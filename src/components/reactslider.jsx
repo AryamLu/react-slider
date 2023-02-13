@@ -14,7 +14,7 @@ export function Reactslider() {
         L 52 10
         L 96 10
         Q 99 10 99 7
-        L 99 2`} stroke="blue" fill="transparent" strokeWidth={1}/>
+        L 99 2`} stroke="black" fill="transparent" strokeWidth={1}/>
       </svg>
     </div>
     
